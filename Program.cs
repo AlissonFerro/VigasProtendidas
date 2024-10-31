@@ -1,3 +1,5 @@
+using Verificacao;
+
 namespace VigasProtendidas;
 
 static class Program
