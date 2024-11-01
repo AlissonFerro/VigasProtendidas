@@ -609,8 +609,9 @@ public class Form1 : Form
         string[] fykSplit = fykString.Split(" ");
         int fyk = int.Parse(fykSplit[1]);
         int As = int.Parse(inptAsActive.Text.ToString());
+        double Pi = double.Parse(inptPinit.Text.ToString());
 
-        this.steelActive = new SteelActive(fyk, As);
+        steelActive = new SteelActive(fyk, As, Pi);
     }
     private void StartForces()
     {
